@@ -37,3 +37,22 @@
 17. Charset = utf8; | Specifies character encoding (e.g. utf8)
 
 18. SSL Mode = Require; | Defines SSL behavior (e.g. Require)
+
+readonly string connectionString = "Data Source=DESKTOP-S87FPOF\\SQLEXPRESS;" +
+    "Initial Catalog=CRM;" +
+    "UID=sa;" +
+    "Password=ABC@;" +
+    "Integrated Security=True;" +
+    "Trusted_Connection=True;" +
+    "Connection Timeout=30;" +
+    "Encrypt = True;" +
+    "TrustServerCertificate=True;" +
+    "Persist Security Info = True;" +
+    "Application Name=MyApplication;" +
+    "MultipleActiveResultSets=True;" +
+    "Pooling = True;" +
+    "Max Pool Size=100;" +
+    "Min Pool Size=10;" +
+    "Provider = System.Data.SqlClient;" +
+    "Charset = utf8;" +
+    "SSL Mode = Require;";
